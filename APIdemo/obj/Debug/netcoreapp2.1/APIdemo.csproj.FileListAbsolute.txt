@@ -1,0 +1,14 @@
+F:\Person\Project\dotnet\JWT\APIdemo\bin\Debug\netcoreapp2.1\APIdemo.deps.json
+F:\Person\Project\dotnet\JWT\APIdemo\bin\Debug\netcoreapp2.1\APIdemo.runtimeconfig.json
+F:\Person\Project\dotnet\JWT\APIdemo\bin\Debug\netcoreapp2.1\APIdemo.runtimeconfig.dev.json
+F:\Person\Project\dotnet\JWT\APIdemo\bin\Debug\netcoreapp2.1\APIdemo.dll
+F:\Person\Project\dotnet\JWT\APIdemo\obj\Debug\netcoreapp2.1\APIdemo.csproj.CoreCompileInputs.cache
+F:\Person\Project\dotnet\JWT\APIdemo\obj\Debug\netcoreapp2.1\APIdemo.RazorAssemblyInfo.cache
+F:\Person\Project\dotnet\JWT\APIdemo\obj\Debug\netcoreapp2.1\APIdemo.RazorAssemblyInfo.cs
+F:\Person\Project\dotnet\JWT\APIdemo\obj\Debug\netcoreapp2.1\APIdemo.AssemblyInfoInputs.cache
+F:\Person\Project\dotnet\JWT\APIdemo\obj\Debug\netcoreapp2.1\APIdemo.AssemblyInfo.cs
+F:\Person\Project\dotnet\JWT\APIdemo\obj\Debug\netcoreapp2.1\APIdemo.RazorTargetAssemblyInfo.cache
+F:\Person\Project\dotnet\JWT\APIdemo\bin\Debug\netcoreapp2.1\APIdemo.pdb
+F:\Person\Project\dotnet\JWT\APIdemo\obj\Debug\netcoreapp2.1\APIdemo.csprojAssemblyReference.cache
+F:\Person\Project\dotnet\JWT\APIdemo\obj\Debug\netcoreapp2.1\APIdemo.dll
+F:\Person\Project\dotnet\JWT\APIdemo\obj\Debug\netcoreapp2.1\APIdemo.pdb
