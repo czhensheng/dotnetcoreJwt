@@ -178,7 +178,7 @@ namespace APIdemo
                 audience: _options.Audience, //接收者
                 claims: claims, //identity 详情请看上面
                 notBefore: now, //如果在之前没有jwt 则添加 { nbf, 'value' } claim
-                expires: now.Add(_options.Expiration), //过期时间
+                expires: now.Add(_options.Expiration),  
                 signingCredentials: _options.SigningCredentials //加密数字签名证书
             );
             //JwtSecurityTokenHandler将jwt编码

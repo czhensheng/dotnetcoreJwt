@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -15,7 +14,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-namespace APIdemo
+namespace Apidemo2
 {
     public class Startup
     {
@@ -36,6 +35,7 @@ namespace APIdemo
             //claims集合
             var tokenValidationParameters = new TokenValidationParameters
             {
+
                 //令牌签名将使用私钥进行验证,签名密钥必须匹配！
                 ValidateIssuerSigningKey = true,
                 IssuerSigningKey = signingKey,
@@ -62,18 +62,15 @@ namespace APIdemo
                 //
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             })
-            //1.x项目中，认证是通过中间件配置的。为您想要支持的每种认证方案调用中间件方法
-            //2.0项目中，认证是通过服务配置的。每个认证方案都在Startup.cs的ConfigureServices方法中注册。该方法被替换为。UseIdentityUseAuthentication
-            //.net core2的升级改造，官方的说明，所有的 app.UseXxxAuthentication 方法都变成了 service.AddAuthentication(XxxSchema).AddXxx()
             .AddJwtBearer(o =>
             {
                 //不使用https
                 //o.RequireHttpsMetadata = false;
                 //token验证参数 对应上面的claims集合
-                //对用户传入的token进行验证，验证规则就是tokenValidationParameters
-                //https://jwt.io/ 可以对token进行验证
                 o.TokenValidationParameters = tokenValidationParameters;
             });
+            // 添加到 IoC 容器
+            services.AddSingleton(tokenValidationParameters);
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -81,17 +78,6 @@ namespace APIdemo
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            var audienceConfig = Configuration.GetSection("Audience");
-            var symmetricKeyAsBase64 = audienceConfig["Secret"];
-            var keyByteArray = Encoding.ASCII.GetBytes(symmetricKeyAsBase64);
-            var signingKey = new SymmetricSecurityKey(keyByteArray);
-            var SigningCredentials = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256);
-            var options = new TokenProviderOptions
-            {
-                Audience = audienceConfig["Audience"],
-                Issuer = audienceConfig["Issuer"],
-                SigningCredentials = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256)
-            };
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -100,23 +86,12 @@ namespace APIdemo
             {
                 app.UseHsts();
             }
+
             app.UseHttpsRedirection();
-
-
-
-            //localhost:xxxx/task1
-            //this is 1
-            app.Map("/task1", taskapp =>
-            {
-                taskapp.Run(async context =>
-                {
-                    await context.Response.WriteAsync("this is 1");
-                });
-            });
-
-            app.UseAuthentication();
-            app.UseMiddleware<TokenProviderMiddleware>(Options.Create(options));
             app.UseMvc();
+
+            
+            
         }
     }
 }
