@@ -12,3 +12,17 @@ F:\Person\Project\dotnet\JWT\Apidemo2\obj\Debug\netcoreapp2.1\Apidemo2.RazorTarg
 F:\Person\Project\dotnet\JWT\Apidemo2\bin\Debug\netcoreapp2.1\Apidemo2.pdb
 F:\Person\Project\dotnet\JWT\Apidemo2\obj\Debug\netcoreapp2.1\Apidemo2.dll
 F:\Person\Project\dotnet\JWT\Apidemo2\obj\Debug\netcoreapp2.1\Apidemo2.pdb
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\bin\Debug\netcoreapp2.1\Apidemo2.deps.json
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\bin\Debug\netcoreapp2.1\Apidemo2.runtimeconfig.json
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\bin\Debug\netcoreapp2.1\Apidemo2.runtimeconfig.dev.json
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\bin\Debug\netcoreapp2.1\Apidemo2.dll
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\bin\Debug\netcoreapp2.1\Apidemo2.pdb
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\obj\Debug\netcoreapp2.1\Apidemo2.csprojAssemblyReference.cache
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\obj\Debug\netcoreapp2.1\Apidemo2.csproj.CoreCompileInputs.cache
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\obj\Debug\netcoreapp2.1\Apidemo2.RazorAssemblyInfo.cache
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\obj\Debug\netcoreapp2.1\Apidemo2.RazorAssemblyInfo.cs
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\obj\Debug\netcoreapp2.1\Apidemo2.AssemblyInfoInputs.cache
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\obj\Debug\netcoreapp2.1\Apidemo2.AssemblyInfo.cs
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\obj\Debug\netcoreapp2.1\Apidemo2.RazorTargetAssemblyInfo.cache
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\obj\Debug\netcoreapp2.1\Apidemo2.dll
+D:\Code\dotnet\dotnetcoreJwt\Apidemo2\obj\Debug\netcoreapp2.1\Apidemo2.pdb

@@ -1,0 +1,14 @@
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\bin\Debug\netcoreapp2.1\ApiDemo3.deps.json
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\bin\Debug\netcoreapp2.1\ApiDemo3.runtimeconfig.json
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\bin\Debug\netcoreapp2.1\ApiDemo3.runtimeconfig.dev.json
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\bin\Debug\netcoreapp2.1\ApiDemo3.dll
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\obj\Debug\netcoreapp2.1\ApiDemo3.csproj.CoreCompileInputs.cache
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\obj\Debug\netcoreapp2.1\ApiDemo3.RazorAssemblyInfo.cache
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\obj\Debug\netcoreapp2.1\ApiDemo3.RazorAssemblyInfo.cs
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\obj\Debug\netcoreapp2.1\ApiDemo3.AssemblyInfoInputs.cache
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\obj\Debug\netcoreapp2.1\ApiDemo3.AssemblyInfo.cs
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\obj\Debug\netcoreapp2.1\ApiDemo3.RazorTargetAssemblyInfo.cache
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\obj\Debug\netcoreapp2.1\ApiDemo3.csprojAssemblyReference.cache
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\bin\Debug\netcoreapp2.1\ApiDemo3.pdb
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\obj\Debug\netcoreapp2.1\ApiDemo3.dll
+D:\Code\dotnet\dotnetcoreJwt\ApiDemo3\obj\Debug\netcoreapp2.1\ApiDemo3.pdb

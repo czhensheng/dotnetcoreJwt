@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIdemo", "APIdemo\APIdemo.csproj", "{A3E35E9E-0E23-4E7F-AA84-2E3ABE7E1FF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apidemo2", "Apidemo2\Apidemo2.csproj", "{672C3644-466D-4140-B5F4-A5EDA22D3B6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apidemo2", "Apidemo2\Apidemo2.csproj", "{672C3644-466D-4140-B5F4-A5EDA22D3B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDemo3", "ApiDemo3\ApiDemo3.csproj", "{CAFBE529-097A-4B6B-8903-38BA493C1C13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{672C3644-466D-4140-B5F4-A5EDA22D3B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{672C3644-466D-4140-B5F4-A5EDA22D3B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{672C3644-466D-4140-B5F4-A5EDA22D3B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFBE529-097A-4B6B-8903-38BA493C1C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFBE529-097A-4B6B-8903-38BA493C1C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFBE529-097A-4B6B-8903-38BA493C1C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFBE529-097A-4B6B-8903-38BA493C1C13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
